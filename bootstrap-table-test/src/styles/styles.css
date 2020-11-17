@@ -1,0 +1,57 @@
+body {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: visible;
+}
+
+#app {
+  padding-right: 8.5rem;
+}
+
+table, th, td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+table {
+  border: solid 1px lightgray;
+}
+
+td {
+  vertical-align: middle !important;
+}
+
+textarea {
+  margin-top: 0.3rem !important;
+  resize: none !important;
+  padding-bottom: 0 !important;
+  outline-color: lightgray;
+  background: none !important;
+  border-style: none;
+  border-color: Transparent;
+  overflow: auto;
+  outline-width: thick;
+  outline-offset: 1.15rem;
+}
+textarea :hover {
+  cursor: pointer !important;
+}
+
+#infoIcon {
+  font-size: 1.3rem;
+  text-align: center;
+  display: block;
+  color: black;
+  border: transparent;
+}
+
+#elementSymbol span {
+  background-color: #5bc0de;
+  padding: 0.3rem;
+  border-radius: 20%;
+}
+
+/*# sourceMappingURL=styles.scss.map */
+
+/*# sourceMappingURL=styles.css.map */
