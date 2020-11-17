@@ -21,7 +21,7 @@ Progress bar and info icon components are from Bootsrap-Vue.
 
 Also I choose to have the information in the ElementsTable.vue component to be set as props so whenever we need to use the component or we need to used it multiple times we just assign new values to these props.
 
-## To run the code first run 
+### To run the code first this command to install dependencies 
 ```
 npm install
 ```
