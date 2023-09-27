@@ -8,7 +8,9 @@ body {
   padding-right: 8.5rem;
 }
 
-table, th, td {
+table,
+th,
+td {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 1rem;
@@ -34,6 +36,7 @@ textarea {
   outline-width: thick;
   outline-offset: 1.15rem;
 }
+
 textarea :hover {
   cursor: pointer !important;
 }

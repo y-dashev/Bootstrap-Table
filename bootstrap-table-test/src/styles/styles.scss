@@ -1,7 +1,7 @@
-$fontChoice:Arial, Helvetica, sans-serif;
+$fontChoice: Arial, Helvetica, sans-serif;
 $fontWeight: normal;
 $fontSize: 1rem;
-$elementSymbolBgColor:#5bc0de;
+$elementSymbolBgColor: #5bc0de;
 $tableBorderColor: lightgray;
 
 body {
@@ -9,33 +9,41 @@ body {
   font-family: $fontChoice;
   overflow-x: visible;
 }
-#app{
-  padding-right:8.5rem;
+
+#app {
+  padding-right: 8.5rem;
 }
-table, th, td {
+
+table,
+th,
+td {
   font-family: $fontChoice;
   font-weight: $fontWeight;
   font-size: $fontSize;
 }
+
 table {
   border: solid 1px $tableBorderColor;
 }
-td{
-  vertical-align: middle!important;
+
+td {
+  vertical-align: middle !important;
 }
+
 textarea {
-  margin-top: 0.3rem!important;
-  resize: none!important;
-  padding-bottom: 0!important;
+  margin-top: 0.3rem !important;
+  resize: none !important;
+  padding-bottom: 0 !important;
   outline-color: lightgray;
-  background: none!important;
+  background: none !important;
   border-style: none;
   border-color: Transparent;
   overflow: auto;
   outline-width: thick;
   outline-offset: 1.15rem;
-  :hover{
-    cursor: pointer!important;
+
+  :hover {
+    cursor: pointer !important;
   }
 }
 
